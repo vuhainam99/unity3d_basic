@@ -628,7 +628,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.99608743, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2063,6 +2063,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595939842272982845, guid: 76dc76987fba05f4785addaaec651d58,
+        type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: db03a3dc04d9aff489a3430084a536e3, type: 3}
+    - target: {fileID: 5595939842272982845, guid: 76dc76987fba05f4785addaaec651d58,
+        type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76dc76987fba05f4785addaaec651d58, type: 3}
